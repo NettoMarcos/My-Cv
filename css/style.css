@@ -7,11 +7,11 @@
 .container {
     font-family: sans-serif;
     display: grid;
-    padding-right: 14%;
-    padding-left: 14%;
+    padding-top: 1%;
+    padding-right: 5%;
+    padding-left: 5%;
     grid-template-columns: 50% 50%;
-    grid-auto-rows: minmax();
-    
+    grid-auto-rows: minmax(); 
 }
 
 .box1 {
@@ -19,6 +19,10 @@
     text-align: center;
     background: linear-gradient(360deg, rgb(10, 10, 10), rgb(32, 60, 92));
     color: white;
+}
+
+.box1 h2 {
+    padding-top: 15px;
 }
 
 .ProfileImage {
@@ -30,7 +34,7 @@
 }
 .ProfileIcons {
     margin: 10px;
-    padding-top: 20px;
+    padding-top: 10px;
     font-size: 50px;
 }
 
@@ -49,4 +53,72 @@ a {
 
 .box2 p {
     padding-left: 15px;
+}
+.box3 {
+    grid-column: 1/span 2;
+    border: 2px inset rgb(219, 219, 219);
+    background-color: rgba(179, 179, 179, 0.041);
+}
+
+.box3 li {
+    list-style: none;
+}
+
+.box4 {
+    grid-column: 1;
+    line-height: 1.4;
+    margin-top: 10px;
+    margin-right: 10px;
+    border: 2px inset rgba(223, 221, 221, 0.466);
+}
+
+.box4 h3 {
+    text-align: center;
+}
+
+.box4 li {
+    list-style: none;
+}
+
+.SkillList {
+    padding-left: 10px;
+}
+
+.icon-css {
+    color: rgb(0, 162, 255);
+}
+
+.icon-html {
+    color: orangered;
+}
+
+.icon-js {
+    color: rgb(252, 206, 5);
+}
+
+.box5 {
+    grid-column: 2;
+    line-height: 1.4;
+    margin-top: 10px;
+    margin-left: 10px;
+    border: 2px inset rgba(223, 221, 221, 0.466);
+}
+
+.box5 h3 {
+    text-align: center;
+}
+
+.Brazil {
+    width: 25px;
+    height: 25px;
+}
+
+.France {
+    width: 25px;
+    height: 25px;
+}
+
+.Usa {
+    width: 25px;
+    height: 25px;
 }
